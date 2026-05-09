@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ajil-portfolio/static/css/main.2f7933ad.css",
-    "main.js": "/ajil-portfolio/static/js/main.5212e7cc.js",
+    "main.css": "/ajil-portfolio/static/css/main.e2db3c3e.css",
+    "main.js": "/ajil-portfolio/static/js/main.12902970.js",
     "index.html": "/ajil-portfolio/index.html",
-    "main.2f7933ad.css.map": "/ajil-portfolio/static/css/main.2f7933ad.css.map",
-    "main.5212e7cc.js.map": "/ajil-portfolio/static/js/main.5212e7cc.js.map"
+    "main.e2db3c3e.css.map": "/ajil-portfolio/static/css/main.e2db3c3e.css.map",
+    "main.12902970.js.map": "/ajil-portfolio/static/js/main.12902970.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f7933ad.css",
-    "static/js/main.5212e7cc.js"
+    "static/css/main.e2db3c3e.css",
+    "static/js/main.12902970.js"
   ]
 }
