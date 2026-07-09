@@ -44,7 +44,7 @@ const data = [
     name: 'Work Experience',
     icon1: process.env.PUBLIC_URL + '/assets/briefcase.png',
     icon2: process.env.PUBLIC_URL + '/assets/suitcase.png',
-    description: 'Junior PHP Developer Trainee at Fortigrid India Pvt Ltd',
+    description: 'Junior PHP Developer at Fortigrid India Pvt Ltd',
   },
 ];
     return (
