@@ -1,55 +1,52 @@
 export default function About() {
     const tools = [
-        { name: 'vscode', icon: './assets/vscode.png', },
-        { name: 'MySQl', icon: './assets/MySQL.png', },
-        { name: 'SQLite', icon: './assets/SQLite.png', },
-        { name: 'Python', icon: './assets/Python.png', },
-        { name: 'PHP', icon: './assets/PHP.png', },
-       
-    ];
-    const tools2 = [
-        { name: 'Laravel', icon: './assets/Laravel.png', },
-        { name: 'Django', icon: './assets/Django.png', },
-        { name: 'GitHub', icon: './assets/GitHub.png', },
-        { name: 'Bootstrap', icon: './assets/Bootstrap.png', },
-        { name: 'git', icon: './assets/git.png', },
-       
-    ];
-    const tools3 = [
-       
-        { name: 'Javascript', icon: './assets/JavaScript.png', },
-        { name: 'jQuery', icon: './assets/jQuery.png', },
-        {name: 'Postman', icon:'./assets/postman-icon (1).png'}
-       
-    ];
+  { name: 'vscode', icon: process.env.PUBLIC_URL + '/assets/vscode.png' },
+  { name: 'MySQL', icon: process.env.PUBLIC_URL + '/assets/MySQL.png' },
+  { name: 'SQLite', icon: process.env.PUBLIC_URL + '/assets/SQLite.png' },
+  { name: 'Python', icon: process.env.PUBLIC_URL + '/assets/Python.png' },
+  { name: 'PHP', icon: process.env.PUBLIC_URL + '/assets/PHP.png' },
+];
 
-    const data = [
-        {
-            name: 'Languages',
-            icon1: './assets/code-icon.png',
-            icon2: './assets/code-icon-dark.png',
-            description: 'HTML, CSS, JavaScript, jQuery, python, PHP, MySql, SQlite',
-        },
-        {
-            name: 'Framework',
-            icon1: './assets/coding.png',
-            icon2: './assets/coding (1).png',
-            description: 'Django, Laravel, Bootstrap ',
-        },
-        {
-            name: 'Education',
-            icon1: './assets/edu-icon.png',
-            icon2: './assets/edu-icon-dark.png',
-            description: 'BCA Graduate',
-        },
-        {
-            name: 'Work Experience',
-            icon1: './assets/briefcase.png',
-            icon2: './assets/suitcase.png',
-            description: 'Junior PHP Developer Trainee at Fortigrid India Pvt Ltd',
-        }
-       
-    ];
+const tools2 = [
+  { name: 'Laravel', icon: process.env.PUBLIC_URL + '/assets/Laravel.png' },
+  { name: 'Django', icon: process.env.PUBLIC_URL + '/assets/Django.png' },
+  { name: 'GitHub', icon: process.env.PUBLIC_URL + '/assets/GitHub.png' },
+  { name: 'Bootstrap', icon: process.env.PUBLIC_URL + '/assets/Bootstrap.png' },
+  { name: 'Git', icon: process.env.PUBLIC_URL + '/assets/git.png' },
+];
+
+const tools3 = [
+  { name: 'JavaScript', icon: process.env.PUBLIC_URL + '/assets/JavaScript.png' },
+  { name: 'jQuery', icon: process.env.PUBLIC_URL + '/assets/jQuery.png' },
+  { name: 'Postman', icon: process.env.PUBLIC_URL + '/assets/postman-icon (1).png' },
+];
+
+const data = [
+  {
+    name: 'Languages',
+    icon1: process.env.PUBLIC_URL + '/assets/code-icon.png',
+    icon2: process.env.PUBLIC_URL + '/assets/code-icon-dark.png',
+    description: 'HTML, CSS, JavaScript, jQuery, Python, PHP, MySQL, SQLite',
+  },
+  {
+    name: 'Framework',
+    icon1: process.env.PUBLIC_URL + '/assets/coding.png',
+    icon2: process.env.PUBLIC_URL + '/assets/coding (1).png',
+    description: 'Django, Laravel, Bootstrap',
+  },
+  {
+    name: 'Education',
+    icon1: process.env.PUBLIC_URL + '/assets/edu-icon.png',
+    icon2: process.env.PUBLIC_URL + '/assets/edu-icon-dark.png',
+    description: 'BCA Graduate',
+  },
+  {
+    name: 'Work Experience',
+    icon1: process.env.PUBLIC_URL + '/assets/briefcase.png',
+    icon2: process.env.PUBLIC_URL + '/assets/suitcase.png',
+    description: 'Junior PHP Developer Trainee at Fortigrid India Pvt Ltd',
+  },
+];
     return (
         <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
             <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ajil-portfolio/static/css/main.e2db3c3e.css",
+    "main.js": "/ajil-portfolio/static/js/main.df0cd80a.js",
+    "index.html": "/ajil-portfolio/index.html",
+    "main.e2db3c3e.css.map": "/ajil-portfolio/static/css/main.e2db3c3e.css.map",
+    "main.df0cd80a.js.map": "/ajil-portfolio/static/js/main.df0cd80a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2db3c3e.css",
+    "static/js/main.df0cd80a.js"
+  ]
+}
